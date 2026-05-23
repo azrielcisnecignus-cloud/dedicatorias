@@ -43,7 +43,7 @@ header{
     justify-content: center;
     align-items: center;
     transition: all;
-    font-size: 30px;
+    font-size: 15px;
     text-align: center;
 }
 
@@ -60,7 +60,7 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     font-family: 'Dancing Script', cursive;
-    font-size: 30px;
+    font-size: 15px;
     color: rgb(238, 16, 153);
 }
 main {
@@ -70,7 +70,7 @@ main {
 }
 h1 {
     color: rgb(246, 184, 251);
-    font-size: 90px;
+    font-size: 20px;
     text-align: center;
     text-shadow: 7px 7px 4px black;
     margin-top: 30px;
