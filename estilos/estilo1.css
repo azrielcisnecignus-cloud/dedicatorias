@@ -1,47 +1,44 @@
-header {
+header{
     width: 100%; 
     position: fixed;
-    top: 0;
+    top:0;
     z-index: 999; 
     background: rgba(84, 3, 23, 0.7); 
-    backdrop-filter: blur(10px); /* Efectos visuales se quedan en px */
+    backdrop-filter: blur(10px);
 }
-
-.barra {
+.barra{
     width: 90%;
-    margin: auto;
+    margin:auto;
     display: flex; 
     align-items: center;
     justify-content: space-between;
-    padding: 2vh 0; /* vh = porcentaje del alto de la pantalla */
-}
+    padding: 18px 0; 
 
-.amigas {
+}
+.amigas{
     font-family: 'Dancing Script', cursive;
-    font-size: 2.5rem; /* ~40px */
+    font-size: 40px;
     font-weight: 900;
-    color: rgba(232, 97, 8, 0.897);
+    color:rgba(232, 97, 8, 0.897)
 }
-
-.listarvinculos {
+.listarvinculos{
     display: flex;
     list-style: none;
-    max-width: 80%; /* Cambiado de 500px a 80% */
+    max-width: 500px;
     width: 100%;
 }
-
-.listarvinculos li {
-    flex: 1;
+.listarvinculos li{
+    flex:1;
     display: flex;
 }
 
-.listarvinculos a {
+.listarvinculos a{
     text-decoration: none;
     color: white;
-    font-size: 2.1rem; /* ~35px */
+    font-size: 35px;
     position: relative;
-    padding: 2%; /* Cambiado a porcentaje */
-    display: flex;
+    padding: 10px;
+    display:flex;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -49,56 +46,33 @@ header {
     text-align: center;
 }
 
-.listarvinculos a:hover {
+.listarvinculos a:hover{
     background-color: blueviolet;
-    border-radius: 10px; /* Bordes se quedan en px para no deformarse */
+    border-radius: 10px;
 }
 
-body {
-    background-image: url("../imagenes/adriana.gif");
-    background-size: cover;
+body{
+    background-image: 
+    url("../imagenes/adriana.gif");
+    background-size:cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     font-family: 'Dancing Script', cursive;
-    font-size: 1.8rem; /* ~30px */
+    font-size: 30px;
     color: rgb(238, 16, 153);
 }
-
 main {
-    margin-top: 30vh; /* Se adapta al alto de cualquier pantalla */
+    margin-top: 270px; 
     text-align: center;
-    text-shadow: 7px 7px 4px black; /* Sombras se quedan en px */
+    text-shadow: 7px 7px 4px black;
 }
-
 h1 {
     color: rgb(246, 184, 251);
-    font-size: 3.1rem; /* ~50px */
+    font-size: 50px;
     text-align: center;
-    text-shadow: 7px 7px 4px black; /* Sombras se quedan en px */
-    margin-top: 5vh; /* Se adapta al alto de la pantalla */
-    -webkit-text-stroke: 2px rgb(39, 2, 28); /* Trazos se quedan en px */
+    text-shadow: 7px 7px 4px black;
+    margin-top: 30px;
+    -webkit-text-stroke: 2px rgb(39, 2, 28);
 }
 
-/* =========================================
-   MEDIA QUERIES
-   ========================================= */
-
-@media (max-width: 1024px) {
-  main {
-    margin-top: 15vh; /* Reducimos el margen usando el alto de pantalla */
-  }
-  h1 {
-    font-size: 1.7rem; /* ~28px */
-  }
-}
-
-@media (max-width: 768px) {
-  main {
-    margin-top: 8vh; 
-    width: 95%; 
-  }
-  h1 {
-    font-size: 1.3rem; /* ~22px */
-  }
-}
