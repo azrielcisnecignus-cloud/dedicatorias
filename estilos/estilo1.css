@@ -208,3 +208,27 @@ h1 {
     transform: translateX(0);
   }
 }
+/* Ajustes para móviles */
+@media (max-width: 599px) {
+    body {
+        padding: 10px;
+        background-attachment: scroll; /* evita problemas en móviles */
+    }
+
+    main {
+        margin-top: 100px; /* reduce espacio */
+    }
+
+    h2 {
+        font-size: 1.8rem; /* mucho más pequeño */
+        text-align: center;
+        margin-left: 0;
+    }
+
+    p {
+        font-size: 1rem; /* tamaño legible en móviles */
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+}
