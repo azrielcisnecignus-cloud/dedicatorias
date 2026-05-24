@@ -10,6 +10,58 @@
 
     <title>LA AMISTAD ETERNA</title>
     <style>
+        header{
+    width: 100%; 
+    position: fixed;
+    top:0;
+    z-index: 999; 
+    background: rgba(103, 43, 117, 0.7); 
+    backdrop-filter: blur(10px);
+}
+.barra{
+    width: 90%;
+    margin:auto;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0; 
+
+}
+.amigas{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-weight: 900;
+    color:rgba(232, 97, 8, 0.897)
+}
+.listarvinculos{
+    display: flex;
+    list-style: none;
+    max-width: 500px;
+    width: 100%;
+}
+.listarvinculos li{
+    flex:1;
+    display: flex;
+}
+
+.listarvinculos a{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    position: relative;
+    padding: 10px;
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: all;
+    text-align: center;
+}
+
+.listarvinculos a:hover{
+    background-color: blueviolet;
+    border-radius: 10px;
+}
         body {
             background-image: url("imagenes/poema.gif");
             background-size: cover;
@@ -26,6 +78,7 @@
             inset 0 0 300px rgba(0, 0, 0, 1);
         }
          h2 {   
+            margin-top: 170px;
             font-size: 600%;
             text-align: left;
             margin-left: 35px;
@@ -46,7 +99,26 @@
     </style>
 </head>
 <body>
-
+ <header>
+    <div class="barra">
+        <div class="amigas" >
+            LA AMISTAD ETERNA
+        </div>
+        <NAV>
+            <ul id="lista" class="listarvinculos"> 
+                <li><a href="Adri.html" >
+                    <span>para Adri</span>
+                </a></li>
+                <li><a href="madeley.html" >
+                    <span>Madeley</span>
+                </a></li>
+                <li><a href="hola.html" >
+                    <span>Hola</span>
+                </a></li>
+            </ul>
+    </div>
+        </NAV>
+</header>
     <main>
     <h2><strong>💖 Adri 💖</strong></h2>
     <p><b>"Adri, este espacio es para ti. Quería dejar este mensaje como un pequeño reconocimiento a la dedicación y el cariño que pones en lo que haces. Aunque no nos conocemos, la calidez de tu amistad y tu alegría traspasan la pantalla en cada live. Gracias por crear momentos tan amenos, por hacernos sonreír y por compartir esa vibra tan bonita con nosotros. Sigue brillando así."</b></p>

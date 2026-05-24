@@ -3,7 +3,7 @@ header{
     position: fixed;
     top:0;
     z-index: 999; 
-    background: rgba(84, 3, 23, 0.7); 
+    background: rgba(127, 37, 60, 0.7); 
     backdrop-filter: blur(10px);
 }
 .barra{
@@ -12,13 +12,11 @@ header{
     display: flex; 
     align-items: center;
     justify-content: space-between;
-    padding: 18px 0; 
-
-}
+    }
 .amigas{
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
-    font-weight: 900;
+    font-weight: 600;
     color:rgba(232, 97, 8, 0.897)
 }
 .listarvinculos{
