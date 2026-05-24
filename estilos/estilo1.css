@@ -45,7 +45,7 @@ header{
 }
 
 .listarvinculos a:hover{
-    background-color: blueviolet;
+    background-color: rgb(166, 159, 172);
     border-radius: 10px;
 }
 
