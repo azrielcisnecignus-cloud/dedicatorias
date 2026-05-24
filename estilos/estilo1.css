@@ -3,7 +3,7 @@ header{
     position: fixed;
     top:0;
     z-index: 999; 
-    background: rgba(127, 37, 60, 0.7); 
+    background: rgba(100, 70, 78, 0.7); 
     backdrop-filter: blur(10px);
 }
 .barra{
@@ -17,7 +17,7 @@ header{
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
     font-weight: 600;
-    color:rgba(232, 97, 8, 0.897)
+    color:rgba(235, 234, 233, 0.897)
 }
 .listarvinculos{
     display: flex;
@@ -51,7 +51,7 @@ header{
 
 body{
     background-image: 
-    url("../imagenes/adriana.gif");
+    url("../imagenes/bienvenida1.gif");
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
